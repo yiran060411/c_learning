@@ -11,7 +11,7 @@ int has_seven(int x) {
 int main() {
     int n;
     scanf("%d", &n);
-    int skip[4] = {0}; // 甲乙丙丁
+    int skip[4] = {0}; 
     int count = 0, num = 1;
     while (count < n) {
         int player = (num - 1) % 4;
